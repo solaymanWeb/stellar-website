@@ -1,0 +1,364 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul li {
+    list-style: none;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+/**
+    Common css end
+*/
+
+/* 
+    header CSS START
+*/
+
+.header-full {
+    background: #1C1E53;
+    height: 92px;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 92px;
+    align-items: center;
+}
+
+.main-logo img {
+    width: 100%;
+}
+
+.menu-item ul {
+    display: flex;
+    align-items: center;
+}
+
+.menu-item ul li a {
+    padding: 15px 16px;
+    font-weight: bold;
+    color: #BBBBCB;
+}
+
+.menu-item ul li:hover a {
+    color: #fff;
+}
+
+.header-btn {
+    width: 185px;
+    text-align: center;
+    border: 2px solid #F4F6FC33;
+    font-weight: 500;
+    padding: 15px 16px;
+    margin-left: 16px;
+    background-color: transparent;
+    border-radius: 41px;
+    -webkit-border-radius: 41px;
+    -moz-border-radius: 41px;
+    -ms-border-radius: 41px;
+    -o-border-radius: 41px;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+.header-btn a {
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+
+.header-btn:hover {
+    background-color: #FCD980;
+    color: black;
+}
+
+.header-btn:hover a {
+    color: black;
+}
+
+.menu-item,
+.header-btn button a {
+    font-weight: 500;
+    color: #BBBBCB;
+}
+
+
+/* 
+work portfolio CSS start
+*/
+.work-portfolio-fluid {
+    background-color: #F4F6FC;
+    padding: 96px 0px;
+}
+
+.work-portfolio {
+    text-align: center;
+    width: 713px;
+    margin: 0 auto;
+}
+
+.work-portfolio h4 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    color: #282938;
+    padding-bottom: 24px;
+}
+
+.social-icon a i {
+    color: gray;
+    padding-top: 24px;
+}
+
+/* 
+
+ Teamplate area CSS start
+*/
+.template-fluid {
+    padding: 96px 0px;
+}
+
+.template-menu {
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 32px;
+}
+
+.template-menu ul {
+    display: flex;
+    justify-content: center;
+}
+
+.template-menu ul li a {
+    padding: 10px 16px;
+}
+
+.template-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.template {
+    width: 623px;
+    margin-bottom: 64px;
+}
+
+.template img {
+    width: 100%;
+}
+
+.template h3 {
+    padding-top: 24px;
+    padding-bottom: 12px;
+    font-size: 38px;
+    font-weight: 600;
+    color: #282938;
+}
+
+.template a {
+    padding-top: 24px;
+}
+
+.template a i {
+    padding-left: 20px;
+}
+
+
+/* 
+get together CSS start
+*/
+.get-together-fluid{
+    padding-bottom: 96px;
+}
+.get-together {
+    width: 730px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.get-together h3 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    color: #282938;
+}
+.get-together p {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    color: #282938;
+}
+
+.get-together button {
+
+    width: 150px;
+    height: 50px;
+    border: 1px solid rgb(49, 49, 80);
+    border-radius: 41px;
+    -webkit-border-radius: 41px;
+    -moz-border-radius: 41px;
+    -ms-border-radius: 41px;
+    -o-border-radius: 41px;
+}
+.get-together button:hover {
+    background-color: #FCD980;
+    border: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer top part start */
+
+.footer-fluid {
+    background-color: #1C1E53;
+    padding-top: 96px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-top-logo img {
+    padding-bottom: 22px;
+}
+
+.footer-top-logo {
+    width: 50%;
+    position: relative;
+}
+
+.footer-top-text {
+    width: 50%;
+}
+
+.footer-top-logo>p {
+    color: #F4F6FC;
+    opacity: 0.8;
+    padding-bottom: 86px;
+    padding-right: 250px;
+
+}
+
+.footer-contact {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    width: 517px;
+    height: 50px;
+    background-color: #FCD980;
+    color: #282938;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.email-me {
+    width: 50%;
+    color: #282938;
+}
+
+.email-me p,
+.coll-me p {
+    color: #282938;
+    padding-top: 10px;
+}
+
+.coll-me {
+    width: 50%;
+}
+
+.footer-top-text {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    padding-bottom: 50px;
+    width: 400px;
+}
+
+.footer-top-text h3 {
+    color: #FFFFFF;
+    padding-bottom: 14px;
+}
+
+.footer-top-text p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #F4F6FC;
+    opacity: 0.8;
+    padding-bottom: 28px;
+}
+
+.social-icon a {
+    color: #FFFFFF;
+    font-size: 18px;
+    padding-right: 16px;
+}
+
+.read-more a {
+    color: #282938;
+}
+
+/* Footer part start */
+.footer-area {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-copyright {
+    display: flex;
+    align-items: center;
+}
+
+.footer-menu ul li {
+    display: inline-block;
+}
+
+.footer-menu ul li a {
+    padding: 32px 16px;
+    color: #282938;
+    font-weight: 500;
+}
