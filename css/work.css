@@ -190,9 +190,10 @@ work portfolio CSS start
 /* 
 get together CSS start
 */
-.get-together-fluid{
+.get-together-fluid {
     padding-bottom: 96px;
 }
+
 .get-together {
     width: 730px;
     text-align: center;
@@ -205,6 +206,7 @@ get together CSS start
     line-height: 64px;
     color: #282938;
 }
+
 .get-together p {
     padding-top: 20px;
     padding-bottom: 40px;
@@ -222,6 +224,7 @@ get together CSS start
     -ms-border-radius: 41px;
     -o-border-radius: 41px;
 }
+
 .get-together button:hover {
     background-color: #FCD980;
     border: transparent;

@@ -141,7 +141,8 @@ ul li {
 .view-work button a {
     color: #FFF;
 }
-.view-work:hover button{
+
+.view-work:hover button {
     background-color: #FCD980;
     color: #1C1E53;
 }
@@ -486,6 +487,153 @@ Project part start
 
 }
 
+/* 
+cliend slide CSS start
+*/
+
+.client-slide-fluid {
+    padding: 128px 0px;
+    background: ##f5f5f5a2;
+
+}
+
+.client-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.client-left {
+    width: 30%;
+    padding-right: 80px;
+}
+
+.client-left h3 {
+    font-size: 38px;
+    font-weight: 600;
+    color: #282938;
+    padding-bottom: 16px;
+
+}
+
+.client-right {
+    width: 70%;
+    position: relative;
+}
+
+.client-right-profile img {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.client-right-profile {
+    display: flex;
+    align-items: center;
+}
+
+.client-img {
+    padding-right: 15px;
+}
+
+.client-content h3 {
+
+    font-size: 32px;
+    font-weight: 500;
+    color: #282938;
+    padding-bottom: 48px;
+
+}
+
+.client-content {
+    padding: 16px;
+}
+
+.slick-scroll-icon {
+    display: flex;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+}
+
+.prev {
+    width: 48px;
+    height: 48px;
+    border: 1px solid black;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: relative;
+}
+
+.prev i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font: 20px;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.prev:hover {
+    background-color: #5239FA;
+    color: #FFF;
+    border: transparent;
+}
+
+.next {
+    width: 48px;
+    height: 48px;
+    border: 1px solid black;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: relative;
+    margin-left: 16px;
+}
+
+.next i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 20px;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.next:hover {
+    background-color: #5239FA;
+    border: transparent;
+    color: #FFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* inquery part start */
 
 .inquery-area {
@@ -559,10 +707,11 @@ Project part start
     background-color: transparent;
     margin-bottom: 16px;
 }
+
 .form button {
     padding: 16px 150px;
     box-sizing: border-box;
-    color:#FFFFFF;
+    color: #FFFFFF;
     font-size: 18px;
     border-radius: 41px;
     -webkit-border-radius: 41px;
@@ -572,75 +721,90 @@ Project part start
     background-color: transparent;
     border: 1.5px solid rgba(255, 255, 255, 0.05);
 }
+
 .form button:hover {
-    color:#1B1C2B;
+    color: #1B1C2B;
     background-color: #FCD980;
 }
-.inquery-form a{
+
+.inquery-form a {
     display: inline-block;
     padding-left: 140px;
     padding-top: 28px;
     color: #FFFFFF;
 }
+
 /* Blog part start */
-.blog-main-area{
+.blog-main-area {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     padding-bottom: 100px;
 }
-.blog-card{
+
+.blog-card {
     width: 405px;
 }
-.blog-header{
-font-size: 48px;
-font-weight: 600;
-line-height: 64px;
-padding-bottom: 64px;
-color: #282938;
+
+.blog-header {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    padding-bottom: 64px;
+    color: #282938;
 
 }
-.blog-card-img{
+
+.blog-card-img {
     padding-bottom: 40px;
 }
-.blog-card-text > a{
+
+.blog-card-text>a {
     padding-bottom: 16px;
 }
-.blog-card-text h4{
+
+.blog-card-text h4 {
     font-size: 24px;
     font-weight: 500;
     line-height: 36px;
-    color:#282938;
+    color: #282938;
     padding-bottom: 16px;
 }
-.blog-card-text p{
+
+.blog-card-text p {
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
-    color:#282938;
+    color: #282938;
     padding-bottom: 32px;
 }
+
 /* Footer top part start */
 
-.footer-fluid{
+.footer-fluid {
     background-color: #1C1E53;
     padding-top: 96px;
 }
-.footer-top{
+
+.footer-top {
     display: flex;
     justify-content: space-between;
 }
-.footer-top-logo img{
+
+.footer-top-logo img {
     padding-bottom: 22px;
 }
-.footer-top-logo{
+
+.footer-top-logo {
     width: 50%;
     position: relative;
 }
-.footer-top-text{
+
+.footer-top-text {
     width: 50%;
 }
-.footer-top-logo > p{
+
+.footer-top-logo>p {
     color: #F4F6FC;
     opacity: 0.8;
     padding-bottom: 86px;
@@ -648,7 +812,7 @@ color: #282938;
 
 }
 
-.footer-contact{
+.footer-contact {
     display: flex;
     justify-content: space-between;
     padding: 16px;
@@ -660,61 +824,71 @@ color: #282938;
     left: 0;
     bottom: 0;
 }
-.email-me{
+
+.email-me {
     width: 50%;
-    color:#282938;
+    color: #282938;
 }
-.email-me p, .coll-me p{
-    color:#282938;
+
+.email-me p,
+.coll-me p {
+    color: #282938;
     padding-top: 10px;
 }
-.coll-me{
+
+.coll-me {
     width: 50%;
 }
-.footer-top-text{
+
+.footer-top-text {
     font-size: 48px;
     font-weight: 600;
     line-height: 64px;
     padding-bottom: 50px;
     width: 400px;
 }
-.footer-top-text h3{
+
+.footer-top-text h3 {
     color: #FFFFFF;
     padding-bottom: 14px;
 }
-.footer-top-text p{
+
+.footer-top-text p {
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
     color: #F4F6FC;
     opacity: 0.8;
-   padding-bottom: 28px;
+    padding-bottom: 28px;
 }
-.social-icon a{
+
+.social-icon a {
     color: #FFFFFF;
     font-size: 18px;
     padding-right: 16px;
 }
-.read-more a{
+
+.read-more a {
     color: #282938;
 }
+
 /* Footer part start */
-.footer-area{
+.footer-area {
     display: flex;
     justify-content: space-between;
 }
-.footer-copyright{
+
+.footer-copyright {
     display: flex;
     align-items: center;
 }
-.footer-menu ul li{
+
+.footer-menu ul li {
     display: inline-block;
 }
-.footer-menu ul li a{
+
+.footer-menu ul li a {
     padding: 32px 16px;
-    color:#282938;
+    color: #282938;
     font-weight: 500;
 }
-
-
-
